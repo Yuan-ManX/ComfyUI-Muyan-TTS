@@ -24,3 +24,12 @@ pip install -r requirements.txt
 
 ## Model
 
+### Model Download 
+
+| Models   | Links   |
+|-------|-------|
+| Muyan-TTS   | [huggingface](https://huggingface.co/MYZY-AI/Muyan-TTS) \| [modelscope](https://modelscope.cn/models/MYZY-AI/Muyan-TTS)   |
+| Muyan-TTS-SFT   | [huggingface](https://huggingface.co/MYZY-AI/Muyan-TTS-SFT) \| [modelscope](https://modelscope.cn/models/MYZY-AI/Muyan-TTS-SFT)   |
+
+Additionally, you need to download the weights of [chinese-hubert-base](https://huggingface.co/TencentGameMate/chinese-hubert-base).
+
