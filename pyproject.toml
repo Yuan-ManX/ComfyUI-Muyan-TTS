@@ -1,0 +1,15 @@
+[project]
+name = "muyan-tts"
+description = "Make Muyan-TTS avialbe in ComfyUI."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["transformers>=4.41.2,<=4.49.0,!=4.46.0,!=4.46.1,!=4.46.2,!=4.46.3,!=4.47.0,!=4.47.1,!=4.48.0", "fire", "sse-starlette", "datasets<=3.2.0,>=2.16.0", "accelerate<=1.2.1,>=0.34.0", "peft<=0.12.0,>=0.11.1", "trl>=0.8.6,<=0.9.6", "tokenizers>=0.19.0,<=0.21.0", "numpy>=1.23.4,<2.0.0", "scipy", "librosa>=0.9.2", "sentencepiece", "einops", "tiktoken", "av>=11", "numba>=0.56.4", "pytorch-lightning>2.0", "torchaudio", "ffmpeg-python", "vllm==0.6.4.post1", "nltk", "wordsegment", "g2p_en", "gradio<=5.21.0,>=4.38.0", "x_transformers", "deepspeed>=0.9.3", "matplotlib", "tyro<0.9.0", "modelscope", "num2words"]
+
+[project.urls]
+Repository = "https://github.com/Yuan-ManX/ComfyUI-Muyan-TTS"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-Muyan-TTS"
+Icon = ""
